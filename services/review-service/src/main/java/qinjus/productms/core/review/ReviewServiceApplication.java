@@ -1,8 +1,10 @@
-package qinjus.core.review;
+package qinjus.productms.core.review;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
+@ComponentScan("qinjus.productms")
 @SpringBootApplication
 public class ReviewServiceApplication {
 

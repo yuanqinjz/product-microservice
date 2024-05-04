@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: INFO
+    '[qinjus.productms]': DEBUG
+server:
+  port: 8001
+
+server.error.include-message: always
