@@ -6,3 +6,13 @@ server:
   port: 8001
 
 server.error.include-message: always
+
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - docker
+      
+server:
+  port: 8080
