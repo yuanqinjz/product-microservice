@@ -16,7 +16,7 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=docker
   product-composite:
-    build: services/product-composite-service
+    build: services/product-composite
     mem_limit: 512m
     ports:
       - "8080:8080"

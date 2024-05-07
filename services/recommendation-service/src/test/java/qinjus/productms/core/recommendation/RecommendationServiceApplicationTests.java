@@ -1,10 +1,10 @@
-package qinjus.core.composite.productcomposite;
+package qinjus.productms.core.recommendation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductCompositeApplicationTests {
+class RecommendationServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
