@@ -1,7 +1,7 @@
 version: '2.1'
 services:
   product:
-    build: services/product-services
+    build: services/product-service
     mem_limit: 512m
     environment:
       - SPRING_PROFILES_ACTIVE=docker
