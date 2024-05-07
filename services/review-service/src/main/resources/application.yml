@@ -5,3 +5,13 @@ logging:
   level:
     root: INFO
     '[qinjus.productms]': DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - docker
+      
+server:
+  port: 8080
